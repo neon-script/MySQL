@@ -1,0 +1,40 @@
+mysql --version
+mysql -u root -p
+show databases;
+create database mahimadb;
+use mahima; // change to mahima database
+CREATE TABLE EMPLOYEE(
+    EmpID int,
+    FirstName varchar(255),
+    LastName varchar(255),
+    EmpAge int,
+    EmpZone varchar(255),
+);
+
+// DESC Emp;
+
+//Insert into Employee(EmpID,FirstName,LastName,EmpAge, EmpZone) Values(1,'ankita','bhardwaj'
+23,'north-east');
+
+Select * from Employee;// to see all data of the table
+Select lastname from Employee;// last name from Employee
+Select EmpAge, EmpZone from Employee;
+
+
+Select  Distinct EmpAge from Employee;
+Select * from Employee;
+Where EmpAge=25;
+where empAge>30;
+
+Select * from Employee;
+Where EmpAge=25;
+where empAge>30;
+ Create Table EMPLOYEE(;
+FirstName varchar(255),
+LastName varchar(255),
+EmpId int NOT NULL,
+EmpAge int,
+EmpZone varchar(255)
+ Primary Key (EmpId)
+);
+
