@@ -38,3 +38,39 @@ EmpZone varchar(255)
  Primary Key (EmpId)
 );
 
+CREATE TABLE Employees (
+    FirstName VARCHAR(255),
+    LastName VARCHAR(255),
+    EmpAge INT,
+    EmpZone VARCHAR(255),
+    EmpId INT NOT NULL
+);
+
+
+CREATE TABLE EMPL(
+    FirstName varchar(300),
+    LastName varchar(355),
+    EmpAGE INT,
+    EmpZone  VARCHAR(300),
+    EMPID INT NOT NULL
+)
+
+CREATE TABLE EMPLL(
+    FirstName varchar(300),
+    LastName varchar(355),
+    EMPID  INT,
+    EMPZONE VARCHAR(400),
+    EMPDEPT  VARCHAR(300) Default 'Operations'
+);
+
+create table emplloyee(
+    firstname varchar(400),
+    lastname varchar(300),
+    empid int,
+    empzone varchar(400),
+    empdept varchar(400),
+    empage int ,
+    check(empage>20)
+);
+ Alter Table Emplloyee
+ Add EmpSubject varchar(300);
