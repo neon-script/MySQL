@@ -74,3 +74,94 @@ create table emplloyee(
 );
  Alter Table Emplloyee
  Add EmpSubject varchar(300);
+
+ Alter Table Emplloyee
+ Drop  Column EmpSubject ;
+
+ Alter Table Emplloyee
+ Alter column Empdept int;
+
+ select firstname, lastname from emplloyee;
+ select firstname, lastname from emplloyee limit 5;
+ select Distinct empage from emplloyee;
+
+ Select * from Emplloyee 
+ where Empage>=23;
+
+ Select * from Emplloyee
+ where Empage> 20;
+
+ Select * from Emplloyee
+ where Empage Between 20 and 23;
+
+ Select * from Emplloyee
+ where EmpID=2;
+
+ Select empage from Emplloyee
+ where empid is not null;
+
+ select empid from emplloyee;
+ select Max(EmpId) from emplloyee;
+
+ Select Min(EmpId) from emplloyee;
+ Select EmpAge , AVG(EmpId)  from emplloyee;
+
+ Select Empdept from Emplloyee
+ where EmpSubject='English'
+
+Alter Table Emplloyee
+Drop Column EmpAGE;
+
+Desc Emplloyee;
+
+Alter Table Emplloyee
+Add Column EmpDept varchar(255);
+
+Alter Table Emplloyee
+Add Column  EmpDept varchar(255);
+
+Desc Employee;
+
+Alter Table Emplloyee
+Alter Column EmpDept int;
+
+Select  EmpDept, Empid As number_of_listings
+from Emplloyee
+Group By EmpAge;
+show tables
+
+Select Table
+use mahimadb
+
+create table Employee(
+empid int not null
+firstname varchar(255)
+lastname varchar(255)
+unique (empid)
+);
+
+Create Table Employee(
+    EmpId  int not null,
+    firstname varchar,
+    lastname varchar,
+    empdept varchar(355) default 'operations'
+);
+create table employee(
+    firstname varchar(244),
+    lastname varchar(244),
+    empid varchar(200),
+    empdept varchar(300)
+
+)
+Insert into employee(firstname, lastname, empid, empdept) values ('Mahima','Bhardwaj',1,'chemistry')
+Insert into employee(firstname, lastname, empid, empdept)values ('zoe', 'sharma', 2,'english');
+Insert into employee(firstname, lastname, empid, empdept) values ('kareena', 'kapoor',3,'hindi');
+Insert into employee(firstname, lastname , empid, empdept) values ('katrina','kaif', 4, 'maths');
+
+Create Table Empps(
+    EmpId int,
+    EmpSubject varchar(255),
+    firstname  varchar(255),
+    lastname varchar(255),
+    check (empAge > 20)
+);
