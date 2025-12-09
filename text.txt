@@ -123,7 +123,7 @@ Add Column  EmpDept varchar(255);
 Desc Employee;
 
 Alter Table Emplloyee
-Alter Column EmpDept int;
+Add Column EmpDept int;
 
 Select  EmpDept, Empid As number_of_listings
 from Emplloyee
@@ -165,3 +165,50 @@ Create Table Empps(
     lastname varchar(255),
     check (empAge > 20)
 );
+
+Select * from Empll
+where empid=1 and firstname='Mahima'
+
+Select * from Empll where empid=2 or lastname='sharma'
+
+
+Select * from Empll where not firstname='kareena'
+select * from empll where department='sales' or department='marketing
+
+select * from empll where FirstName like 'M%';
+select * from empll where lastname like 'B%';
+
+select * from empll where empdept like 'e%';
+select * from empll where firstname like '%M';
+select * FROM EMPLL WHERE EmpDept like '%_________s';
+Select * from empll where lastname like 's____';
+
+Select * from empll where empid 1 and 4;
+
+Select * from empid Not between 1 and 3;
+
+mysql> Select Firstname, lastname, empage,
+    -> case
+    -> when empage=25 then 'employee with senior experience'
+    -> when empage>25 Then 'Employee with experience eligible for senior profile.'
+    -> else 'fresher new to the company'
+    -> end as eligiblity
+    -> from emplloyee;
+
+    comments in sql
+    -- , #
+
+   // Select AVG(Empid) from Emplloyee;
+   //Select Sum(EmpAge) from Emplloyee;
+   Select Count(EmpAGE)
+   FROM Empll
+   where empAge=25;
+
+   indexes  are used to retreive records  from database 
+
+   create index demoindex on emplloyee(firstname);
+   create index demoindex2 on employee(firstName, lastname, Empid);
+   show indexes from employee;
+
+
+   

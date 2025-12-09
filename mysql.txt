@@ -1,0 +1,1101 @@
+
+
+PS C:\Users\hp> show databases;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show databases;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> show databases;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show databases;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> show database;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show database;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> show database;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show database;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> show databases;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show databases;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> show databases;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show databases;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> show database;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show database;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> show database;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show database;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> show databases;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show databases;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> show databases;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show databases;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> show databases;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show databases;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> show databases;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show databases;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> show databases;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show databases;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> show databases;
+show : The term 'show' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ show databases;
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (show:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\hp> mysql -u root -p
+Enter password: ************
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 24
+Server version: 8.0.44 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> Create Table Emplloyee(
+    -> EmpId int,
+    -> firstname varchar(300),
+    -> lastname varchar(300),
+    -> empdept varchar(300) default 'operations' );
+ERROR 1046 (3D000): No database selected
+mysql> Create Table Emplloyee(
+    -> empdept varchar(300) default 'operations' );
+ERROR 1046 (3D000): No database selected
+mysql> Create Table Emplloyee(
+    -> EmpId int,
+    -> firstname varchar(300),
+    -> lastname varchar(300),
+    -> empdept varchar(300) default 'operations'
+    -> );
+ERROR 1046 (3D000): No database selected
+mysql> Create Table Emplloyee(
+    -> firstname varchar(300),
+    -> lastname varchar(300),
+    -> EmpId int,
+    -> empdept varchar(300) default 'operations'
+    -> );
+ERROR 1046 (3D000): No database selected
+mysql> Create Table Emplloyee(
+    -> ^C
+mysql> Create Table Emplloyee(
+    -> firstname varchar(300),
+    -> lastname varchar(300),
+    -> EmpId int,
+    -> EmpDept varchar(300) default 'operations'
+    -> );
+ERROR 1046 (3D000): No database selected
+mysql> Create Table Emplloyee(
+    -> firstname varchar(300),
+    -> lastname varchar(300),
+    -> empdept varchar(300) default 'operations'
+    -> );
+ERROR 1046 (3D000): No database selected
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mahima             |
+| mahimadb           |
+| mysql              |
+| newdata            |
+| newdb              |
+| performance_schema |
+| sys                |
++--------------------+
+8 rows in set (0.03 sec)
+
+mysql> use mahima
+Database changed
+mysql> Create Table Emplloyee(
+    -> firstname varchar(300),
+    -> lastname varchar(300),
+    -> EmpId int,
+    -> empdept varchar(300) default 'operations' );
+ERROR 1050 (42S01): Table 'emplloyee' already exists
+mysql> Create Table Emplloyee(
+    -> firstname varchar(300),
+    -> lastname varchar(300),
+    -> EmpId int,
+    -> empdept varchar(300) default 'operations'
+    -> );
+ERROR 1050 (42S01): Table 'emplloyee' already exists
+mysql> Create Table Employee(
+    -> firstname varchar(300),
+    -> lastname varchar(300),
+    -> EmpId int,
+    -> empdept varchar(300) default 'operations'
+    -> );
+ERROR 1050 (42S01): Table 'employee' already exists
+mysql> create table employee(
+    -> ^C
+mysql> create table emp(
+    -> firstname varchar(300),
+    -> lastname varchar(300),
+    -> EmpId int,
+    -> empdept varchar(300) default 'operations'
+    -> );
+ERROR 1050 (42S01): Table 'emp' already exists
+mysql> create table empp(
+    -> firstname varchar(300),
+    -> lastname varchar(300),
+    -> EmpId int,
+    -> empdept varchar(300) default 'operations'
+    -> );
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> show table
+    -> ^C
+mysql> show table;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+mysql> show table
+    -> ^C
+mysql> show table;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+mysql> show tables;
++------------------+
+| Tables_in_mahima |
++------------------+
+| emp              |
+| empll            |
+| emplloyee        |
+| employee         |
+| employees        |
+| empp             |
+| emps             |
++------------------+
+7 rows in set (0.02 sec)
+
+mysql> show emp
+    -> ^C
+mysql> show table
+    ->
+    -> ^C
+mysql>
+mysql> show empp
+    -> ^C
+mysql>  show empp
+    -> ^C
+mysql>  show empp;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'empp' at line 1
+mysql> create table empp(
+    -> firstname varchar(300),^C
+mysql> Create table empple(
+    -> firstname varchar(300),
+    -> lastname varchar(300),
+    -> empid int,
+    -> check (empage>20)
+    -> );
+ERROR 3820 (HY000): Check constraint 'empple_chk_1' refers to non-existing column 'empage'.
+mysql> create table empp(
+    -> firstname varchar(300),
+    -> lastname varchar(300),
+    -> empid int,
+    -> check (empage>20)
+    -> );
+ERROR 3820 (HY000): Check constraint 'empp_chk_1' refers to non-existing column 'empage'.
+mysql> create table empp(
+    -> firstname varchar(300),
+    -> lastname varchar(300),
+    -> EmpId int,
+    -> check (empage>20)
+    -> );
+ERROR 3820 (HY000): Check constraint 'empp_chk_1' refers to non-existing column 'empage'.
+mysql> DESC Empp
+    -> ^C
+mysql> DESC Empp;
++-----------+--------------+------+-----+------------+-------+
+| Field     | Type         | Null | Key | Default    | Extra |
++-----------+--------------+------+-----+------------+-------+
+| firstname | varchar(300) | YES  |     | NULL       |       |
+| lastname  | varchar(300) | YES  |     | NULL       |       |
+| EmpId     | int          | YES  |     | NULL       |       |
+| empdept   | varchar(300) | YES  |     | operations |       |
++-----------+--------------+------+-----+------------+-------+
+4 rows in set (0.03 sec)
+
+mysql> Insert into empp(firstname, lastname, empid, empdept) values('John','Abhraham',1,'English');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> Insert into empp(firstname, lastname, empid, empdept) values('kareena' 'Kapoor', 2, 'Maths');
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+mysql> Insert into empp(firstname, lastname, empid, empdept) values('Preity' , 'Zinta', 3, 'Hindi');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> Insert into empp(firstname, lastname, empid, empdept) values('lara', 'dutta', 4, 'english');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> selct * from empp;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selct * from empp' at line 1
+mysql> select * from empp;
++-----------+----------+-------+---------+
+| firstname | lastname | EmpId | empdept |
++-----------+----------+-------+---------+
+| John      | Abhraham |     1 | English |
+| Preity    | Zinta    |     3 | Hindi   |
+| lara      | dutta    |     4 | english |
++-----------+----------+-------+---------+
+3 rows in set (0.02 sec)
+
+mysql> Insert into empp(firstname, lastname, empid, empdept) values('lara','dutta',1,'maths');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> Insert into empp(firstname, lastname , empid , empdept) values('pinki', 'kumari', 2, 'english');
+Query OK, 1 row affected (0.10 sec)
+
+mysql> Insert into empp(firstname, lastname, empid, empdept) values ('kareena','kapoor', 4 , 'hindi');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> show table;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+mysql> show tables;
++------------------+
+| Tables_in_mahima |
++------------------+
+| emp              |
+| empll            |
+| emplloyee        |
+| employee         |
+| employees        |
+| empp             |
+| emps             |
++------------------+
+7 rows in set (0.00 sec)
+
+mysql> select * from empp;
++-----------+----------+-------+---------+
+| firstname | lastname | EmpId | empdept |
++-----------+----------+-------+---------+
+| John      | Abhraham |     1 | English |
+| Preity    | Zinta    |     3 | Hindi   |
+| lara      | dutta    |     4 | english |
+| lara      | dutta    |     1 | maths   |
+| pinki     | kumari   |     2 | english |
+| kareena   | kapoor   |     4 | hindi   |
++-----------+----------+-------+---------+
+6 rows in set (0.00 sec)
+
+mysql> Alter Table Empp
+    -> Add EmpDept varchar(233);
+ERROR 1060 (42S21): Duplicate column name 'EmpDept'
+mysql> Alter Table Empp
+    -> Add EmpDept varchar(233);
+ERROR 1060 (42S21): Duplicate column name 'EmpDept'
+mysql> Alter Table Empp
+    -> Add EmpSubject varchar(233);
+Query OK, 0 rows affected (0.06 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> Alter Table Empp
+    -> Modify column EmpDept int;
+ERROR 1366 (HY000): Incorrect integer value: 'English' for column 'EmpDept' at row 1
+mysql> Alter Table Empp
+    -> Modify Column EmpDept int;
+ERROR 1366 (HY000): Incorrect integer value: 'English' for column 'EmpDept' at row 1
+mysql> Alter Table Empp
+    -> Modify column EmpDept int;
+ERROR 1366 (HY000): Incorrect integer value: 'English' for column 'EmpDept' at row 1
+mysql> Alter Table Empp
+    -> Modify column EmpDept varchar;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+mysql> Alter Table Empp
+    -> Modify column EmpDept int;
+ERROR 1366 (HY000): Incorrect integer value: 'English' for column 'EmpDept' at row 1
+mysql> Alter Table Empp
+    -> Modify Column EmpDept int;
+ERROR 1366 (HY000): Incorrect integer value: 'English' for column 'EmpDept' at row 1
+mysql> Alter Table Empp
+    -> Modify column EmpDept int;
+ERROR 1366 (HY000): Incorrect integer value: 'English' for column 'EmpDept' at row 1
+mysql> DESC EMPP;
++------------+--------------+------+-----+------------+-------+
+| Field      | Type         | Null | Key | Default    | Extra |
++------------+--------------+------+-----+------------+-------+
+| firstname  | varchar(300) | YES  |     | NULL       |       |
+| lastname   | varchar(300) | YES  |     | NULL       |       |
+| EmpId      | int          | YES  |     | NULL       |       |
+| empdept    | varchar(300) | YES  |     | operations |       |
+| EmpSubject | varchar(233) | YES  |     | NULL       |       |
++------------+--------------+------+-----+------------+-------+
+5 rows in set (0.07 sec)
+
+mysql> Alter Table Empp Drop Column EmpSubject;
+Query OK, 0 rows affected (0.11 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> select * from empp;
++-----------+----------+-------+---------+
+| firstname | lastname | EmpId | empdept |
++-----------+----------+-------+---------+
+| John      | Abhraham |     1 | English |
+| Preity    | Zinta    |     3 | Hindi   |
+| lara      | dutta    |     4 | english |
+| lara      | dutta    |     1 | maths   |
+| pinki     | kumari   |     2 | english |
+| kareena   | kapoor   |     4 | hindi   |
++-----------+----------+-------+---------+
+6 rows in set (0.00 sec)
+
+mysql> Alter Table Empll Add Column Empdept vachar(200);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'vachar(200)' at line 1
+mysql> Alter Table Empll Add Column EmpDept varchar(255;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+mysql> Alter Table Empll Add Column Empsubject
+    -> ^C
+mysql> Alter Table Empll
+    -> Add Column Empdept vachar(200);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'vachar(200)' at line 2
+mysql> Alter Table Empll
+    -> Add Column Empdept vachar(300);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'vachar(300)' at line 2
+mysql> Alter Table Empll
+    -> Add Column Empdept vachar(200);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'vachar(200)' at line 2
+mysql> Alter Table Empll
+    -> Add Column Empdept vachar(200);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'vachar(200)' at line 2
+mysql> Alter Table Empp Drop Column EmpSubject;
+ERROR 1091 (42000): Can't DROP 'EmpSubject'; check that column/key exists
+mysql> DESC empp;
++-----------+--------------+------+-----+------------+-------+
+| Field     | Type         | Null | Key | Default    | Extra |
++-----------+--------------+------+-----+------------+-------+
+| firstname | varchar(300) | YES  |     | NULL       |       |
+| lastname  | varchar(300) | YES  |     | NULL       |       |
+| EmpId     | int          | YES  |     | NULL       |       |
+| empdept   | varchar(300) | YES  |     | operations |       |
++-----------+--------------+------+-----+------------+-------+
+4 rows in set (0.05 sec)
+
+mysql> Select * from Empll
+    -> ^C
+mysql> Insert into Empll(firstname, lastname, EmpId, empdept) values('Mahima', 'Bhardwaj',1,'English');
+Query OK, 1 row affected (0.09 sec)
+
+mysql> Insert into Empll(firstname, lastname, EmpId, empdept) values('charu', 'dwiwedi', 2, 'Hindi');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> Insert into Empll(firstname, lastname, EmpId, empdept) values('kylie','Jenner', 3, 'Maths');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> Insert into Empll(firstname, lastname, EmpId, empdept) values('Sanjeena', 'dwivedi', 4, 'Hindi');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> Select * from Empll
+    -> select * from empp;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select * from empp' at line 2
+mysql> select * from empp;
++-----------+----------+-------+---------+
+| firstname | lastname | EmpId | empdept |
++-----------+----------+-------+---------+
+| John      | Abhraham |     1 | English |
+| Preity    | Zinta    |     3 | Hindi   |
+| lara      | dutta    |     4 | english |
+| lara      | dutta    |     1 | maths   |
+| pinki     | kumari   |     2 | english |
+| kareena   | kapoor   |     4 | hindi   |
++-----------+----------+-------+---------+
+6 rows in set (0.00 sec)
+
+mysql> select * from Empll where  firstName='john' and lastname='bhardwaj'
+    -> ^C
+mysql> select * from Empll where  firstName='john' and lastname='bhardwaj'
+    -> ^C
+mysql> select * from Empll where EmpId =2 and empdept='english'
+    -> ^C
+mysql> select * from Empll where EmpId =2 and empdept='english';
+Empty set (0.02 sec)
+
+mysql> select * from Empll where EmpId =2 and empdept='english';
+Empty set (0.00 sec)
+
+mysql> select * from Empll where EmpId =4 and empdept='hindi';
++-----------+----------+-------+---------+
+| firstname | lastname | empid | empDept |
++-----------+----------+-------+---------+
+| Sanjeena  | dwivedi  |     4 | Hindi   |
++-----------+----------+-------+---------+
+1 row in set (0.00 sec)
+
+mysql> DESC empp;
++-----------+--------------+------+-----+------------+-------+
+| Field     | Type         | Null | Key | Default    | Extra |
++-----------+--------------+------+-----+------------+-------+
+| firstname | varchar(300) | YES  |     | NULL       |       |
+| lastname  | varchar(300) | YES  |     | NULL       |       |
+| EmpId     | int          | YES  |     | NULL       |       |
+| empdept   | varchar(300) | YES  |     | operations |       |
++-----------+--------------+------+-----+------------+-------+
+4 rows in set (0.03 sec)
+
+mysql> Select * from Empll where empid=1 or empdept='maths'
+    -> ^C
+mysql> Select * from Empll where empid=1 or empdept='maths';
++-----------+----------+-------+---------+
+| firstname | lastname | empid | empDept |
++-----------+----------+-------+---------+
+| Mahima    | Bhardwaj |     1 | English |
+| kylie     | Jenner   |     3 | Maths   |
++-----------+----------+-------+---------+
+2 rows in set (0.00 sec)
+
+mysql> Select * from Empll where not firstname='kareena';
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| roopa     | bhardwaj   |     2 | Operations |
+| kriti     | sanon      |     3 | Operations |
+| sara      | dhiman     |     4 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| mandeep   | singh      |     7 | Operations |
+| Mahima    | Bhardwaj   |     1 | English    |
+| charu     | dwiwedi    |     2 | Hindi      |
+| kylie     | Jenner     |     3 | Maths      |
+| Sanjeena  | dwivedi    |     4 | Hindi      |
++-----------+------------+-------+------------+
+9 rows in set (0.00 sec)
+
+mysql> Select * from Empll where not  empid=10;
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| roopa     | bhardwaj   |     2 | Operations |
+| kriti     | sanon      |     3 | Operations |
+| sara      | dhiman     |     4 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| mandeep   | singh      |     7 | Operations |
+| Mahima    | Bhardwaj   |     1 | English    |
+| charu     | dwiwedi    |     2 | Hindi      |
+| kylie     | Jenner     |     3 | Maths      |
+| Sanjeena  | dwivedi    |     4 | Hindi      |
++-----------+------------+-------+------------+
+9 rows in set (0.00 sec)
+
+mysql> select * from empll where empid(2,4);
+ERROR 1305 (42000): FUNCTION mahima.empid does not exist
+mysql> select * from empll where empid IN(2,3);
++-----------+----------+-------+------------+
+| firstname | lastname | empid | empDept    |
++-----------+----------+-------+------------+
+| roopa     | bhardwaj |     2 | Operations |
+| kriti     | sanon    |     3 | Operations |
+| charu     | dwiwedi  |     2 | Hindi      |
+| kylie     | Jenner   |     3 | Maths      |
++-----------+----------+-------+------------+
+4 rows in set (0.00 sec)
+
+mysql> Select * from empll where empid NOT IN('Hindi', 'English');
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| roopa     | bhardwaj   |     2 | Operations |
+| kriti     | sanon      |     3 | Operations |
+| sara      | dhiman     |     4 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| mandeep   | singh      |     7 | Operations |
+| Mahima    | Bhardwaj   |     1 | English    |
+| charu     | dwiwedi    |     2 | Hindi      |
+| kylie     | Jenner     |     3 | Maths      |
+| Sanjeena  | dwivedi    |     4 | Hindi      |
++-----------+------------+-------+------------+
+9 rows in set, 2 warnings (0.03 sec)
+
+mysql> select * from empll where empID not in(2,4);
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| kriti     | sanon      |     3 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| mandeep   | singh      |     7 | Operations |
+| Mahima    | Bhardwaj   |     1 | English    |
+| kylie     | Jenner     |     3 | Maths      |
++-----------+------------+-------+------------+
+5 rows in set (0.00 sec)
+
+mysql> Select * from empll where empDept NOT IN('Hindi', 'English');
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| roopa     | bhardwaj   |     2 | Operations |
+| kriti     | sanon      |     3 | Operations |
+| sara      | dhiman     |     4 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| mandeep   | singh      |     7 | Operations |
+| kylie     | Jenner     |     3 | Maths      |
++-----------+------------+-------+------------+
+6 rows in set (0.00 sec)
+
+mysql> Select * from Empll where empdept 's%'
+    -> ^C
+mysql> Select * from Empll where empdept 's%';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''s%'' at line 1
+mysql> Select * from Empll where empdept 'O%'
+    -> ^C
+mysql> Select * from Empll where empdept 'O%';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''O%'' at line 1
+mysql> Select * from Empll where empdept 'O%'
+    -> ^C
+mysql> Select * from Empll where empdept Like 'O%';
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| roopa     | bhardwaj   |     2 | Operations |
+| kriti     | sanon      |     3 | Operations |
+| sara      | dhiman     |     4 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| mandeep   | singh      |     7 | Operations |
++-----------+------------+-------+------------+
+5 rows in set (0.03 sec)
+
+mysql> Select * from Empll where firstname like '%l';
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| kajol     | srivastava |     5 | Operations |
++-----------+------------+-------+------------+
+1 row in set (0.00 sec)
+
+mysql>  select * from emp;;
+Empty set (0.01 sec)
+
+ERROR:
+No query specified
+
+mysql> select * FROM EMPLL WHERE EmpDept like '%_________s';
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| roopa     | bhardwaj   |     2 | Operations |
+| kriti     | sanon      |     3 | Operations |
+| sara      | dhiman     |     4 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| mandeep   | singh      |     7 | Operations |
++-----------+------------+-------+------------+
+5 rows in set (0.00 sec)
+
+mysql> Select * from empll where lastname like '%s';
+Empty set (0.00 sec)
+
+mysql> Select * from empll where lastname like 's____';
++-----------+----------+-------+------------+
+| firstname | lastname | empid | empDept    |
++-----------+----------+-------+------------+
+| kriti     | sanon    |     3 | Operations |
+| mandeep   | singh    |     7 | Operations |
++-----------+----------+-------+------------+
+2 rows in set (0.00 sec)
+
+mysql> Select  * from empll where lastname like '____%___';
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| roopa     | bhardwaj   |     2 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| Mahima    | Bhardwaj   |     1 | English    |
+| charu     | dwiwedi    |     2 | Hindi      |
+| Sanjeena  | dwivedi    |     4 | Hindi      |
++-----------+------------+-------+------------+
+5 rows in set (0.00 sec)
+
+mysql> Select  * from empll where lastname like '_______%'
+    -> ^C
+mysql> Select  * from empll where lastname like '_______%';
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| roopa     | bhardwaj   |     2 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| Mahima    | Bhardwaj   |     1 | English    |
+| charu     | dwiwedi    |     2 | Hindi      |
+| Sanjeena  | dwivedi    |     4 | Hindi      |
++-----------+------------+-------+------------+
+5 rows in set (0.00 sec)
+
+mysql> Select * from firstname Not between 'roopa' and 'kajol';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Not between 'roopa' and 'kajol'' at line 1
+mysql> Select * from firstname Not between 'roopa' and 'Mahima';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Not between 'roopa' and 'Mahima'' at line 1
+mysql> Select * from firstname Not between 'roopa' and 'charu';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Not between 'roopa' and 'charu'' at line 1
+mysql> Select * from empid Not between 1 and 3;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Not between 1 and 3' at line 1
+mysql> Select * from empid Not between 2 and 1;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Not between 2 and 1' at line 1
+mysql> Select * from empll where empid Not between 2 and 1;
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| roopa     | bhardwaj   |     2 | Operations |
+| kriti     | sanon      |     3 | Operations |
+| sara      | dhiman     |     4 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| mandeep   | singh      |     7 | Operations |
+| Mahima    | Bhardwaj   |     1 | English    |
+| charu     | dwiwedi    |     2 | Hindi      |
+| kylie     | Jenner     |     3 | Maths      |
+| Sanjeena  | dwivedi    |     4 | Hindi      |
++-----------+------------+-------+------------+
+9 rows in set (0.00 sec)
+
+mysql> Select * from empll where empid between 2 and 1;
+Empty set (0.00 sec)
+
+mysql> Select * from empll where empid between 2 and 1;
+Empty set (0.00 sec)
+
+mysql> select * from empll;
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| roopa     | bhardwaj   |     2 | Operations |
+| kriti     | sanon      |     3 | Operations |
+| sara      | dhiman     |     4 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| mandeep   | singh      |     7 | Operations |
+| Mahima    | Bhardwaj   |     1 | English    |
+| charu     | dwiwedi    |     2 | Hindi      |
+| kylie     | Jenner     |     3 | Maths      |
+| Sanjeena  | dwivedi    |     4 | Hindi      |
++-----------+------------+-------+------------+
+9 rows in set (0.00 sec)
+
+mysql> Select * from empid Not between 1 and 3;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Not between 1 and 3' at line 1
+mysql> Select * from empll where empid  Not between 1 and 3;
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| sara      | dhiman     |     4 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| mandeep   | singh      |     7 | Operations |
+| Sanjeena  | dwivedi    |     4 | Hindi      |
++-----------+------------+-------+------------+
+4 rows in set (0.00 sec)
+
+mysql> Select Firstname, lastname, empid
+    -> case
+    -> when empage>25 Then 'Employee with experience eligible for senior profile.'
+    -> when empage=25 then 'employee with senior experience'
+    -> else fresher new to the company
+    -> end as eligiblity
+    -> from employee;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'case
+when empage>25 Then 'Employee with experience eligible for senior profile.'' at line 2
+mysql> Alter Table Emplloyee Alter Column EmpDept int;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int' at line 1
+mysql> Alter Table Emplloyee Alter Column EmpAge int;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int' at line 1
+mysql> Alter Table Emplloyee Add Column EmpAge int;
+ERROR 1060 (42S21): Duplicate column name 'EmpAge'
+mysql> Alter Table Emplloyee Add Column EmpAge int;
+ERROR 1060 (42S21): Duplicate column name 'EmpAge'
+mysql> select * from Emplloyee;
++-----------+----------+-------+--------+
+| firstname | lastname | empid | empage |
++-----------+----------+-------+--------+
+| lara      | dutta    |     1 |     23 |
+| kajal     | gupta    |     2 |     25 |
+| rose      | lincon   |     5 |     25 |
+| kiara     | advani   |     7 |     30 |
+| kylie     | jenner   |     5 |     30 |
+| shami     | dhiwan   |     2 |     22 |
+| shami     | dhiwan   |     2 |     22 |
+| keerthi   | dhiwan   |     3 |     24 |
+| shruthi   | sharma   |     4 |     25 |
++-----------+----------+-------+--------+
+9 rows in set (0.00 sec)
+
+mysql> Select Firstname, lastname, empage,
+    -> case
+    -> when empage=25 then 'employee with senior experience'
+    -> when empage>25 then 'employee with senior experience'
+    -> else fresher new to the company
+    -> end as eligiblity
+    -> from employee;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'new to the company
+end as eligiblity
+from employee' at line 5
+mysql> select * from empll;
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| roopa     | bhardwaj   |     2 | Operations |
+| kriti     | sanon      |     3 | Operations |
+| sara      | dhiman     |     4 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| mandeep   | singh      |     7 | Operations |
+| Mahima    | Bhardwaj   |     1 | English    |
+| charu     | dwiwedi    |     2 | Hindi      |
+| kylie     | Jenner     |     3 | Maths      |
+| Sanjeena  | dwivedi    |     4 | Hindi      |
++-----------+------------+-------+------------+
+9 rows in set (0.00 sec)
+
+mysql> Select Firstname, lastname, empage,
+    -> when empage=25 then 'employee with senior experience'
+    -> when empage>25 Then 'Employee with experience eligible for senior profile.'
+    -> else fresher new to the company
+    -> end as eligiblity
+    -> from employee;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'when empage=25 then 'employee with senior experience'
+when empage>25 Then 'Emplo' at line 2
+mysql> Select Firstname, lastname, empage,
+    -> case
+    -> when empage>25 Then 'Employee with experience eligible for senior profile.'
+    -> when empage=25 then 'employee with senior experience'
+    -> else fresher new to the company
+    -> end as eligiblity
+    -> from employee;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'new to the company
+end as eligiblity
+from employee' at line 5
+mysql> Select Firstname, lastname, empid
+    -> ^C
+mysql> Select Firstname, lastname, empage,
+    -> case
+    -> when empage=25 then 'employee with senior experience'
+    -> when empage>25 then 'employee with senior experience'
+    -> else fresher new to the company
+    -> end as eligiblity
+    -> from empll;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'new to the company
+end as eligiblity
+from empll' at line 5
+mysql> Select * from empll;
++-----------+------------+-------+------------+
+| firstname | lastname   | empid | empDept    |
++-----------+------------+-------+------------+
+| roopa     | bhardwaj   |     2 | Operations |
+| kriti     | sanon      |     3 | Operations |
+| sara      | dhiman     |     4 | Operations |
+| kajol     | srivastava |     5 | Operations |
+| mandeep   | singh      |     7 | Operations |
+| Mahima    | Bhardwaj   |     1 | English    |
+| charu     | dwiwedi    |     2 | Hindi      |
+| kylie     | Jenner     |     3 | Maths      |
+| Sanjeena  | dwivedi    |     4 | Hindi      |
++-----------+------------+-------+------------+
+9 rows in set (0.00 sec)
+
+mysql> Select * from employee;
+Empty set (0.03 sec)
+
+mysql> Select * from emplloyee;
++-----------+----------+-------+--------+
+| firstname | lastname | empid | empage |
++-----------+----------+-------+--------+
+| lara      | dutta    |     1 |     23 |
+| kajal     | gupta    |     2 |     25 |
+| rose      | lincon   |     5 |     25 |
+| kiara     | advani   |     7 |     30 |
+| kylie     | jenner   |     5 |     30 |
+| shami     | dhiwan   |     2 |     22 |
+| shami     | dhiwan   |     2 |     22 |
+| keerthi   | dhiwan   |     3 |     24 |
+| shruthi   | sharma   |     4 |     25 |
++-----------+----------+-------+--------+
+9 rows in set (0.00 sec)
+
+mysql> Select Firstname, lastname, empage,
+    -> case
+    -> when empage=25 then 'employee with senior experience'
+    -> when empage>25 then 'employee with senior experience'
+    -> else fresher new to the company
+    -> end as eligiblity
+    -> from emplloyee;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'new to the company
+end as eligiblity
+from emplloyee' at line 5
+mysql> Select Firstname, lastname, empage,
+    -> case
+    -> when empage=25 then 'employee with senior experience'
+    -> when empage>25 Then 'Employee with experience eligible for senior profile.'
+    -> else 'fresher new to the company'
+    ->
+    -> end as eligiblity
+    -> from emplloyee;
++-----------+----------+--------+-------------------------------------------------------+
+| Firstname | lastname | empage | eligiblity                                            |
++-----------+----------+--------+-------------------------------------------------------+
+| lara      | dutta    |     23 | fresher new to the company                            |
+| kajal     | gupta    |     25 | employee with senior experience                       |
+| rose      | lincon   |     25 | employee with senior experience                       |
+| kiara     | advani   |     30 | Employee with experience eligible for senior profile. |
+| kylie     | jenner   |     30 | Employee with experience eligible for senior profile. |
+| shami     | dhiwan   |     22 | fresher new to the company                            |
+| shami     | dhiwan   |     22 | fresher new to the company                            |
+| keerthi   | dhiwan   |     24 | fresher new to the company                            |
+| shruthi   | sharma   |     25 | employee with senior experience                       |
++-----------+----------+--------+-------------------------------------------------------+
+9 rows in set (0.03 sec)
+
+mysql> Select * from Emplloyee;
++-----------+----------+-------+--------+
+| firstname | lastname | empid | empage |
++-----------+----------+-------+--------+
+| lara      | dutta    |     1 |     23 |
+| kajal     | gupta    |     2 |     25 |
+| rose      | lincon   |     5 |     25 |
+| kiara     | advani   |     7 |     30 |
+| kylie     | jenner   |     5 |     30 |
+| shami     | dhiwan   |     2 |     22 |
+| shami     | dhiwan   |     2 |     22 |
+| keerthi   | dhiwan   |     3 |     24 |
+| shruthi   | sharma   |     4 |     25 |
++-----------+----------+-------+--------+
+9 rows in set (0.00 sec)
+
+mysql> Select * from Emplloyee; # emplloyee data
++-----------+----------+-------+--------+
+| firstname | lastname | empid | empage |
++-----------+----------+-------+--------+
+| lara      | dutta    |     1 |     23 |
+| kajal     | gupta    |     2 |     25 |
+| rose      | lincon   |     5 |     25 |
+| kiara     | advani   |     7 |     30 |
+| kylie     | jenner   |     5 |     30 |
+| shami     | dhiwan   |     2 |     22 |
+| shami     | dhiwan   |     2 |     22 |
+| keerthi   | dhiwan   |     3 |     24 |
+| shruthi   | sharma   |     4 |     25 |
++-----------+----------+-------+--------+
+9 rows in set (0.00 sec)
+
+mysql> -- Select * from Emplloyee; # emplloyee data
+mysql> Select Sum(EmpAge) from Emplloyee;
++-------------+
+| Sum(EmpAge) |
++-------------+
+|         226 |
++-------------+
+1 row in set (0.01 sec)
+
+mysql> -- Select AVG(Empid) from Emplloyee;
+mysql> Select AVG(Empid) from Emplloyee;
++------------+
+| AVG(Empid) |
++------------+
+|     3.4444 |
++------------+
+1 row in set (0.00 sec)
+
+
+Select count(EmpAge) from emplloyee where EMPAGE=24;
+
+Select Max(EmpAge) As LargetAge from Emplloyee;
+
+Select Max(EmpAge) As LargestAge from emplloyee;
+
+Select Min(EmpAge) As SmallestAge from Emplloyee;
+
+Update Emplloyee
+SET EMPAGE=24
+WHERE EMPID=3;
+
+Select * from Emplloyee;
+where empage=23;
+
+Select * from Emplloyee
+Order By Empage ASC;
+
+Select * from Emplloyee order by Empage Desc;
+
+select empage as age_of_emplloyee
+from emplloyee;
+
+Select firstName As Name1, LastName as Name2
+from Emplloyee;
+
+create table emplloyeee(
+      EMPID int not null auto_increment,
+       firstname varchar(255),
+       lastname varchar(255),
+       empage int,
+      empzone varchar(255),
+      primary key(empid)
+     );
+
+    // Desc Emplloyeee;
+
+    create table emplloyeee(
+    -> EMPID int not null auto_increment,
+    -> firstname varchar(255),
+    -> lastname varchar(255),
+    -> empage int,
+    -> empzone varchar(255),
+    -> primary key(empid)
+    -> );
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> select * from emplloyeee;
+Empty set (0.00 sec)
+
+mysql> select * from emplloyeee;
+Empty set (0.00 sec)
+
+mysql> desc emplloyeee;
++-----------+--------------+------+-----+---------+----------------+
+| Field     | Type         | Null | Key | Default | Extra          |
++-----------+--------------+------+-----+---------+----------------+
+| EMPID     | int          | NO   | PRI | NULL    | auto_increment |
+| firstname | varchar(255) | YES  |     | NULL    |                |
+| lastname  | varchar(255) | YES  |     | NULL    |                |
+| empage    | int          | YES  |     | NULL    |                |
+| empzone   | varchar(255) | YES  |     | NULL    |                |
++-----------+--------------+------+-----+---------+----------------+
+5 rows in set (0.02 sec)
+
+mysql> Insert into Emplloyeee(Empid,firstname , lastname, empage) values ('saniya', 'kapoor',3);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+mysql> Insert into Emplloyeee(Empid,firstname , lastname, empage) values ('saniya', 'kapoor',32);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+mysql> Insert into Emplloyeee(Empid,firstname , lastname, empage) values (1,'saniya', 'kapoor',32);
+Query OK, 1 row affected (0.06 sec)
+
+mysql> Insert into emplloyeee(empid,firstname, lastname, empage) values (2, 'radhika', 'sharma', 33);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> Insert into emplloyeee(empid, firstname, lastname, empage) values(3, 'shivika', 'gupta',34);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> Insert into emplloyeee(empid, firstname, lastname, empage) values(4, 'kareena', 'kapoor',45);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> Insert into emplloyeee(empid, firstname, lastname, empage) values (5, 'katrina', 'kaif',55);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from emplloyeee;
++-------+-----------+----------+--------+---------+
+| EMPID | firstname | lastname | empage | empzone |
++-------+-----------+----------+--------+---------+
+|     1 | saniya    | kapoor   |     32 | NULL    |
+|     2 | radhika   | sharma   |     33 | NULL    |
+|     3 | shivika   | gupta    |     34 | NULL    |
+|     4 | kareena   | kapoor   |     45 | NULL    |
+|     5 | katrina   | kaif     |     55 | NULL    |
++-------+-----------+----------+--------+---------+
+5 rows in set (0.00 sec)
+
+mysql> Desc Emplloyeee;
++-----------+--------------+------+-----+---------+----------------+
+| Field     | Type         | Null | Key | Default | Extra          |
++-----------+--------------+------+-----+---------+----------------+
+| EMPID     | int          | NO   | PRI | NULL    | auto_increment |
+| firstname | varchar(255) | YES  |     | NULL    |                |
+| lastname  | varchar(255) | YES  |     | NULL    |                |
+| empage    | int          | YES  |     | NULL    |                |
+| empzone   | varchar(255) | YES  |     | NULL    |                |
++-----------+--------------+------+-----+---------+----------------+
+5 rows in set (0.00 sec)
+
+mysql>
+
+DESC EMPLOYEE;
+
+Create table Emplloyeee(
+    EmpID int not null auto increment,
+    firstName varchar(230),
+    lastname varchar(340),
+
+);
+create index demmoindex
+on emplloyee(firstName);
+
+create index demoindex2
+on emplloyeee(firstname,lastname, empzone);
+
+drop index demoindex2 on emplloyee;
+indexes  are used to retreive records  from database 
+
+   create index demoindex on emplloyee(firstname);
+   create index demoindex2 on employee(firstName, lastname, Empid);
+   show indexes from employee;
+
